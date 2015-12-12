@@ -1,0 +1,13 @@
+﻿<Window x:Class="WordToPDF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Word转PDF   by dunitian  QQ：1054186320" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button Margin="0,0,0,20" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="150" Height="50"  Content="批量导入Word" Click="WordBtn_Click"/>
+        <Button Margin="0,20,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="150" Height="50" Grid.Row="1"  Content="批量导出PDF" Click="PdfBtn_Click"/>
+    </Grid>
+</Window>
