@@ -7,12 +7,12 @@ using System.Windows;
 // 有关程序集的常规信息通过以下
 // 特性集控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("WordToPDF")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("WordConvertPDF")]
+[assembly: AssemblyDescription("Word转PDF")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WordToPDF")]
-[assembly: AssemblyCopyright("Copyright ©  2015")]
+[assembly: AssemblyCompany("逆天有限公司")]
+[assembly: AssemblyProduct("WordToPDF V1.0")]
+[assembly: AssemblyCopyright("Copyright © DNT 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

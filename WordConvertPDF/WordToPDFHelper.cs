@@ -28,7 +28,7 @@ namespace WordConvertPDF
             Document wordDocument = null;
             #endregion
 
-            #region 参数设置~~我去累死宝宝了~~
+            #region 参数设置~~我去累死宝宝了~~（所谓的参数都是根据这个方法来的:ExportAsFixedFormat）
             //word路径
             object wordPath = Path.GetFullPath(inputPath);
 
