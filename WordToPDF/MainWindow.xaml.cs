@@ -47,11 +47,11 @@ namespace WordToPDF
                 {
                     savePath = System.IO.Path.GetDirectoryName(files[0]);
                     //文件名
-                    string saveName = System.IO.Path.GetFileNameWithoutExtension(files[0]) + "pdf";
+                    string saveName = System.IO.Path.GetFileNameWithoutExtension(files[i]) + ".pdf";
                     //存在就转换
                     if (System.IO.File.Exists(files[i]))
                     {
-                        if (WordConvertPDF.WordToPDFHelper.WordToPDF(files[0], savePath + saveName))
+                        if (WordConvertPDF.WordToPDFHelper.WordToPDF(files[i], savePath + @"\" + saveName))
                         {
                             total++;
                         }
@@ -67,7 +67,7 @@ namespace WordToPDF
 
         private void PdfBtn_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("V1.1版本的时候会公开~敬请期待","逆天友情提醒");
+            MessageBox.Show("V1.1版本的时候会公开~敬请期待", "逆天友情提醒");
             System.Diagnostics.Process.Start("http://www.dkill.net");
         }
 
